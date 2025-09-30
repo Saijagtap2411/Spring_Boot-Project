@@ -29,3 +29,44 @@ It demonstrates how to build REST APIs, connect with databases, and follow a cle
 
 ## 📂 Project Structure
 
+Spring_Boot-Project/
+│── src/
+│ ├── main/
+│ │ ├── java/ # Source code
+│ │ │ ├── controller/ # REST controllers
+│ │ │ ├── service/ # Business logic
+│ │ │ ├── repository/ # Data access
+│ │ │ └── model/ # Entity classes
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── data.sql # (Optional) Initial DB data
+│ └── test/ # Unit and integration tests
+│
+├── pom.xml
+└── README.md
+
+
+
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Java (JDK 11 or higher)  
+- Maven  
+- Git  
+
+### Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Saijagtap2411/Spring_Boot-Project.git
+cd Spring_Boot-Project
+
+# Build and run
+mvn clean install
+mvn spring-boot:run
+
+
