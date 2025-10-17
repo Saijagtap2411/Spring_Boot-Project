@@ -45,9 +45,6 @@ Spring_Boot-Project/
 ├── pom.xml
 └── README.md
 
-
-
-
 ---
 
 ## ⚙️ Getting Started
